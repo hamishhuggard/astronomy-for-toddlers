@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astronomy for Toddlers</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="index.js" defer></script>
+    <div class="page center">
+        <div class="white-panel">
+            <div class="page-content">
+                <h1>Astronomy for Toddlers</h1>
+                <svg>
+                    <defs>
+                        <filter id="filter" filterUnits="userSpaceOnUse" x="-5" y="-5" height="200" width="2000">
+                            <feTurbulence baseFrequency="0.2" numOctaves="3" type="fractalNoise" />
+                            <feDisplacementMap  scale="8"  xChannelSelector="R" in="SourceGraphic" />
+                        </filter>
+                        <path d="m 100 100 l 200 10" stroke="black" stroke-width="20" style="filter:url(#filter)"/>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="page center">
+        <div class="page-content">
+            <div class="white-panel"></div>
+            <svg>
+				<defs>
+					<filter id="filter" filterUnits="userSpaceOnUse" x="-5" y="-5" height="200" width="2000">
+						<feTurbulence baseFrequency="0.2" numOctaves="3" type="fractalNoise" />
+						<feDisplacementMap  scale="8"  xChannelSelector="R" in="SourceGraphic" />
+					</filter>
+                    <path d="m 100 100 l 200 10" stroke="black" stroke-width="20" style="filter:url(#filter)"/>
+				</defs>
+            </svg>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+body {
+    margin: 0;
+    background-image: url('night-sky.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-snap-type: y mandatory;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.page-content {
+    width: 80%;
+    height: 80%;
+}
+
+.white-panel {
+    position: absolute;
+    background-color: white;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
