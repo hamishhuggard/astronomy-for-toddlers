@@ -18,7 +18,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.snap-container {
     scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-snap-points-y: repeat(100vh);
 }
 
 .page {
