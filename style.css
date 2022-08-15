@@ -21,19 +21,21 @@ body {
 }
 
 .snap-container {
-    scroll-snap-type: y mandatory;
+    height: 100vh;
+    width: 100vw;
     overflow-y: scroll;
-    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: 100vh;
+    scroll-snap-type: y mandatory;
 }
 
-.page {
+section {
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
 }
 
 .page-content {
-    position: absolute;
     background-color: white;
     opacity: 0.7;
     width: 80%;
